@@ -21,6 +21,7 @@ Route::auth();
 //---------Home Controller------------------//
 
 Route::get('/', 'QuotesController@index');
+Route::get('/edit/{{quotes_id}}', 'QuotesController@edit');
 
 
 
